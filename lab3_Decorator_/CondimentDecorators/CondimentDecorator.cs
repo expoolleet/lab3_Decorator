@@ -1,6 +1,6 @@
-﻿using lab3_Decorator_.Beverages.AbstractClasses;
+﻿using lab3_Decorator_.Beverages;
 
-namespace lab3_Decorator_
+namespace lab3_Decorator_.CondimentDecorators
 {
     public abstract class CondimentDecorator : Beverage
     {
@@ -8,7 +8,7 @@ namespace lab3_Decorator_
 
         public CondimentDecorator(string name, int price, Beverage beverage) : base(name, price)
         {
-            this.Beverage = beverage;
+            Beverage = beverage;
         }
     }
 }

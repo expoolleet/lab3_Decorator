@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Beverages\AbstractClasses\Beverage.cs" />
+    <Compile Include="Beverages\Beverage.cs" />
     <Compile Include="Beverages\DarkRoast.cs" />
     <Compile Include="Beverages\Decaf.cs" />
     <Compile Include="Beverages\Expresso.cs" />
