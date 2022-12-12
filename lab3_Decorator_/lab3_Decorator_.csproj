@@ -43,16 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Beverage.cs" />
+    <Compile Include="Beverages\AbstractClasses\Beverage.cs" />
     <Compile Include="Beverages\DarkRoast.cs" />
     <Compile Include="Beverages\Decaf.cs" />
     <Compile Include="Beverages\Expresso.cs" />
     <Compile Include="Beverages\HouseBlend.cs" />
-    <Compile Include="CondimentDecorator.cs" />
-    <Compile Include="Decorators\Milk.cs" />
-    <Compile Include="Decorators\Mocha.cs" />
-    <Compile Include="Decorators\Soy.cs" />
-    <Compile Include="Decorators\Whip.cs" />
+    <Compile Include="CondimentDecorators\CondimentDecorator.cs" />
+    <Compile Include="CondimentDecorators\Milk.cs" />
+    <Compile Include="CondimentDecorators\Mocha.cs" />
+    <Compile Include="CondimentDecorators\Soy.cs" />
+    <Compile Include="CondimentDecorators\Whip.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

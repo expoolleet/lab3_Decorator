@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using lab3_Decorator_.Beverages;
-using lab3_Decorator_.Decorators;
+using lab3_Decorator_.CondimentDecorators;
+using lab3_Decorator_.Beverages.AbstractClasses;
 
 namespace lab3_Decorator_
 {
@@ -12,7 +9,6 @@ namespace lab3_Decorator_
     {
         static void Main(string[] args)
         {
-
             Beverage beverage1 = new Soy(new Milk(new Mocha(new Whip(new HouseBlend()))));
 
             Beverage beverage2 = new Whip(new Soy(new Milk(new DarkRoast())));

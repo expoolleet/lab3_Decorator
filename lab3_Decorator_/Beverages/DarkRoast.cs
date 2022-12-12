@@ -1,4 +1,5 @@
-﻿
+﻿using lab3_Decorator_.Beverages.AbstractClasses;
+
 namespace lab3_Decorator_.Beverages
 {
     internal class DarkRoast : Beverage
@@ -14,5 +15,4 @@ namespace lab3_Decorator_.Beverages
             return BaseName;
         }
     }
-
 }

@@ -1,13 +1,11 @@
-﻿
-namespace lab3_Decorator_
+﻿namespace lab3_Decorator_.Beverages.AbstractClasses
 {
     public abstract class Beverage
     {
-        public Beverage(string n, int p)
+        public Beverage(string name, int price)
         {
-            BaseName = n;
-            Price = p;
-
+            BaseName = name;
+            Price = price;
         }
 
         public string BaseName { get; protected set; }
@@ -17,6 +15,5 @@ namespace lab3_Decorator_
         public abstract int Cost();
 
         public abstract string GetDescription();
-
     }
 }

@@ -1,5 +1,6 @@
-﻿
-namespace lab3_Decorator_.Decorators
+﻿using lab3_Decorator_.Beverages.AbstractClasses;
+
+namespace lab3_Decorator_.CondimentDecorators
 {
     internal class Milk : CondimentDecorator
     {
@@ -11,12 +12,12 @@ namespace lab3_Decorator_.Decorators
 
         public override int Cost()
         {
-            return beverage.Price + price;
+            return Beverage.Price + price;
         }
 
         public override string GetDescription()
         {
-            return beverage.BaseName + name;
+            return Beverage.BaseName + name;
         }
     }
 }
